@@ -53,3 +53,8 @@ spring:
 logging:
   level:
     com.baomidou.mybatisplus.samples: debug
+    org.springframework.security: TRACE
+mybatis-plus:
+  configuration:
+    # sql log
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
